@@ -63,7 +63,14 @@ Github 侧的配置
 ![copy notion database link](https://github.com/FarseaSH/hugo-theme-moments/assets/86035589/0221e302-e54a-4b70-a996-a560eff971f4)
 
 
-**3. 修改 Github Action 配置，开始进行自动更新：**
+**3. 设置 Github Page 部署源为 Github Action**
+
+- 依然在这个repo的设置页面中，左侧 `Code and automation` 小标题下方，点击 `Pages`
+- 点击右侧 `Source` 下面的菜单展开，选择 `Github Actions`
+
+![Set Github Page source to Github Action](https://github.com/user-attachments/assets/8cbd795d-b885-4e54-a944-b1ea366868d3)
+
+**4. 修改 Github Action 配置，开始进行自动更新：**
 
 - 在 Github 页面上即可操作，进入`.github/workflows`文件夹，点击查看`update_moments.yml` 文件，单击铅笔图标进行文件编辑。
 - 将`#-schedule:` 和下方 `#- cron:  '0 * */1 * *'` 前面的井号#删除，取消注释，并保持缩进对齐。
