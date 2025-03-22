@@ -1,17 +1,10 @@
-baseURL = ""
-languageCode = "zh-Hans"
-title = "Your Moments"
-
 theme = "moments"
 
-paginate = 10
-paginatePath = '.'
-
+pagination.pagerSize: 10
+pagination.path: '.'
 
 [params]
-    title = "Your Moments"
-    signature = "Time goes from present to past."
-    cover = "default_background.png"
-
-    name = "Default User"
-    avatar = "default_avatar.png"
+    title = "闲读杂记"
+    signature = "用心探索·记录世界"
+    name = "杜重(笔记版"
+    avatar = "avatar.png"
